@@ -1,0 +1,103 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* BODY */
+body{
+    background: #0f172a;
+    color: white;
+    text-align: center;
+}
+
+/* HEADER */
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #111827;
+    position: sticky;
+    top: 0;
+}
+
+header h2{
+    color: #38bdf8;
+}
+
+nav a{
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #38bdf8;
+}
+
+/* HERO */
+.hero{
+    padding: 60px 20px;
+}
+
+.hero img{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 4px solid #38bdf8;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.hero h1{
+    font-size: 28px;
+}
+
+.hero p{
+    color: #94a3b8;
+}
+
+/* BUTTON */
+button{
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #38bdf8;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover{
+    background: #0ea5e9;
+}
+
+/* SECTION */
+section{
+    padding: 40px 20px;
+}
+
+/* SKILL BOX */
+.box-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.box{
+    background: #1e293b;
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: 1px solid #334155;
+}
+
+/* FOOTER */
+footer{
+    padding: 20px;
+    background: #111827;
+    margin-top: 20px;
+}
